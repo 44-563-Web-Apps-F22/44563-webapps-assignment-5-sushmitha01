@@ -15,7 +15,21 @@
   integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
-
+  <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+  <div class="container">
+    <a class="navbar-brand text-wrap" href="insects.html">Interesting Insects</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="#navbarContent" aria-controls="navbarSupportedContent">
+       <span class="navbar-toggler-icon">
+      </button>
+    
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link active"><a class="nav-link bg-info" href="basic.html" >Basic</a></li>
+        <li class="nav-link active"><a class="nav-link bg-warning " href="advanced.html" >Advanced</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
 
 
 <div class="container">
@@ -47,57 +61,135 @@
   <img src="ant.jpg" class="img-thumbnail" alt="Image of Ant" width="400" height="500">
   </div>
 
-  <menu compact="compact">
-  <table class="table table-md table-striped table-hover table-bordered ">
+<div class="table-responsive">
+  <table class="table table-sm table-striped table-hover table-bordered ">
     <caption>Table Insects, cities, Rivers </caption>
-    <thead>
+
       <tr class="bg-primary text-black">
-        <th scope="col" >Letter</th>
-        <th scope="col" colspan="1">Insects</th>
-        <th scope="col">City</th>
-        <th scope="col">River</th>
+        <th >Letter</th>
+        <th >Insects</th>
+        <th >City</th>
+        <th >River</th>
       </tr>
-    </thead>
-    <tbody >
-      <caption>Alphabets </caption>
+      <tbody>
       <tr class="table-primary ">
-        <th scope="row">Y</th>
-        <td colspan="1">Yellow_mealworm</td>
+        <td>Y</td>
+        <td>Yellow_mealworm</td>
         <td>Yorktown</td>
         <td>Yellow River</td>
       </tr>
-      <tr class="table-success">
-        <th scope="row">E</th>
-        <td colspan="1">Earwig</td>
+      <tr>
+        <td>E</td>
+        <td>Earwig</td>
         <td>East Aurora</td>
         <td>East River</td>
       </tr>
-      <tr class="table-danger">
-        <th scope="row">L</th>
-        <td colspan="1">Lacewings</td>
+      <tr>
+        <td>L</td>
+        <td>Lacewings</td>
         <td>Lacona</td>
         <td>Leaf River</td>
       </tr>
-      <tr class="table-warning">
-        <th scope="row">A</th>
-        <td colspan="1">Ant</td>
+      <tr>
+        <td>A</td>
+        <td>Ant</td>
         <td>Albany</td>
         <td>Alabama River</td>
       </tr>
-      <tr class="table-info">
-        <th scope="row">M</th>
-        <td colspan="1">Mosquito</td>
+      <tr>
+        <th>M</th>
+        <td>Mosquito</td>
         <td>Madison</td>
         <td>Mad River</td>
       </tr>
-      <tr class="table-light">
-        <th scope="row">A</th>
-        <td colspan="1">Antlions</td>
+      <tr>
+        <th>A</th>
+        <td>Antlions</td>
         <td>Aurora</td>
         <td>Alamo River</td>
       </tr>
     </tbody>
   </table>
+</div>
+
+    <button type="button" class="btn btn-primary">Y</button>
+    <button type="button" class="btn btn-secondary">E</button>
+    <button type="button" class="btn btn-info">L</button>
+    <button type="button" class="btn btn-danger">A</button>
+    <button type="button" class="btn btn-warning">M</button>
+    <button type="button" class="btn btn-success">A</button>
+
+    <div class="btn-toolbar" role="toolbar" aria-label="tool bar with button group"></div>
+    <div class="btn-group me-2" role="group" aria-label="Group"></div>
+    <button type="button" class="btn btn-success">E</button>
+    <button type="button" class="btn btn-success">L</button>
+    <button type="button" class="btn btn-success">A</button>
+  </div>
+</div>
+  
+  <div class="btn-group me-2" role="group" aria-label="Group">
+    <button type="button" class="alert alert-warning">Y</button>
+    <button type="button" class="alert alert-primary">M</button>
+   </div>
+  <div class="btn-group me-2" role="group" aria-label="Group">
+    <button type="button" class="btn btn-danger">A</button>
+  </div>
+  <br>
+  <div class="dropdown">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">DropDown</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">BASIC</a>
+      <a class="dropdown-item" href="advanced.html">ADVANCED</a>
+  </div>
+  </div>
+  <br>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    
+    <div class="form-group">
+      <label class="form-label">Insect</label>
+      <input type="text" class="form-control" placeholder="Enter your insect">
+    </div>
+     
+    <div class="form-check">
+      <label class="form-check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input">
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    <div class="container">
+      <div class="row">
+      <div class="card col-sm" style="width:15rem;">
+        <img src="Earwig.jpg" alt="Earwigs">
+        <div class="card-body">
+          <h4>Earwig</h4>
+          <p class="card-text">Earwigs are abundant and can be found throughout the Americas and Eurasia.</p>
+          <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Earwig">Click here to know more</a> 
+      </div>   
+    </div>
+
+    <div class="card col-sm" style="width:15rem;">
+      <img src="Lacewings.jpg" alt="Earwigs">
+      <div class="card-body">
+        <h4>Lacewings</h4>
+        <p class="card-text">Green lacewings are insects in the large family chrysopidae of the order neuroptera.</p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Chrysopidae">Click here to know more</a> 
+    </div>   
+  </div>
+
+  <div class="card col-sm" style="width:15rem;">
+    <img src="ant.jpg" alt="Earwigs">
+    <div class="card-body">
+      <h4>Ant</h4>
+      <p class="card-text">Ants have colonised almost every landmass on Earth.</p>
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Ant">Click here to know more</a> 
+  </div>   
+</div>
+
+
   </menu>
 
   
